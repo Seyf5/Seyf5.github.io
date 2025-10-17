@@ -45,11 +45,16 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.1);   
 }
 
-.pwsh{
-    width: 840px;
+.logo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;   
+}
+
+.vuln{
+    width: 780px;
     height: 520px;
     border-radius: 10%;
-    object-fit: cover;
     margin-bottom: 1rem;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);   
 }
@@ -103,6 +108,13 @@ li {
     border-radius: 20px;
     font-weight: bold;
 }
+
+.section:nth-child(1) { animation-delay: 0s; }
+.section:nth-child(2) { animation-delay: 0.2s; }
+.section:nth-child(3) { animation-delay: 0.4s; }
+.section:nth-child(4) { animation-delay: 0.6s; }
+.section:nth-child(5) { animation-delay: 0.8s; }
+.section:nth-child(6) { animation-delay: 1s; }
 
 .emploi {
     margin-bottom: 2rem;
