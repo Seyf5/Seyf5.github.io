@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { Toaster } from "sonner";
 
@@ -32,7 +32,7 @@ function RoutedPages() {
 export default function App() {
   return (
     <div className="font-body">
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Navbar />
         <main className="pt-20">
@@ -50,7 +50,7 @@ export default function App() {
             },
           }}
         />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
