@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0e0f10;
+  --surface: #1e1f22;
+  --surface-2: #2b2d31;
+  --border: #313338;
+  --text: #f2f3f5;
+  --text-muted: #b5bac1;
+  --text-dim: #80848e;
+  --brand: #5865f2;
+  --brand-2: #4752c4;
+}
+
+html, body, #root {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(88, 101, 242, 0.18), transparent 60%),
+    radial-gradient(800px 400px at -10% 110%, rgba(88, 101, 242, 0.10), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--brand);
+  color: white;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--surface-2); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brand); }
+
+.font-display { font-family: 'Space Grotesk', sans-serif; letter-spacing: -0.02em; }
+.font-body    { font-family: 'Manrope', sans-serif; }
+.font-mono    { font-family: 'JetBrains Mono', monospace; }
+
+.glass {
+  background: rgba(14, 15, 16, 0.65);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, black 40%, transparent 80%);
+}
+
+.glow-text {
+  text-shadow: 0 0 40px rgba(88, 101, 242, 0.45);
+}
+
+.hover-lift {
+  transition: transform 220ms ease, border-color 220ms ease, background-color 220ms ease;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  border-color: var(--brand);
+}
+
+.shimmer {
+  background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,0.06) 50%, transparent 65%);
+  background-size: 200% 100%;
+  animation: shimmer 2.4s linear infinite;
+}
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
