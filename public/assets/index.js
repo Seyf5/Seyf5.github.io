@@ -2152,9 +2152,9 @@ function StageBody() {
       {
         items: [
           ["Le besoin", "Configurer un poste neuf demandait toujours la même série d'actions, à refaire à la main sur chaque machine."],
-          ["L'interface", "Un outil avec une vraie fenêtre, en Windows Forms : le technicien coche ce qu'il veut, puis clique sur Installer. La fenêtre porte le logo de l'entreprise."],
-          ["Les logiciels", "Navigateurs, outil d'archivage, lecteur PDF, client VPN, agents de sécurité... Tout est coché par défaut : il suffit de décocher ce dont on n'a pas besoin."],
-          ["Les réglages", "Ajouter le poste au domaine, lancer les mises à jour Windows, définir Google comme moteur de recherche par défaut, désinstaller un ancien antivirus ou une suite Office."],
+          ["L'interface", "Un outil avec une vraie fenêtre, en Windows Forms : le technicien coche ce qu'il veut, puis clique sur Installer."],
+          ["Les logiciels", "Navigateurs, outil d'archivage, lecteur PDF, client VPN, logiciel de chiffrage pour la compta, Tout est coché par défaut : il suffit de décocher ce dont on n'a pas besoin."],
+          ["Les réglages", "Ajouter le poste au domaine, lancer les mises à jour Windows, définir Google comme moteur de recherche par défaut, désinstaller les logiciels inutiles ainsi que la télémétrie."],
           ["La prudence", "Le script vérifie d'abord qu'il est lancé en administrateur, et refuse de continuer dans le cas contraire."]
         ]
       }
