@@ -1,0 +1,31 @@
+# Ce depot ne publie QUE le site deja construit : le dossier public/.
+# Tout le code source reste sur le PC et dans la sauvegarde du Bureau.
+
+/src/
+/static/
+/demos/
+/demo-servers/
+/blender/
+/outils/
+/projet/
+/node_modules/
+/dist/
+/.claude/
+/vidéo a remplir/
+
+/index.html
+/package.json
+/package-lock.json
+/vite.config.js
+/tailwind.config.js
+/postcss.config.js
+/DEMOS.md
+/Lancer-tout.bat
+
+.env
+.env.local
+*.local.json
+.htaccess
+.DS_Store
+__pycache__/
+*.pyc
