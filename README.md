@@ -40,7 +40,3 @@ Tout est dans le dossier `site/` :
 - `src/` : les pages et les composants React (fichiers `.jsx`)
 - `static/` : les images, vidéos et le CV
 - `config/` : la configuration de Vite, Tailwind et PostCSS
-- `public/` : le site construit, créé par `npm run build` (non versionné)
-
-Pour le lancer chez soi : `cd site`, `npm install` puis `npm run dev`.
-À chaque push, GitHub construit le site et le publie sur GitHub Pages.
