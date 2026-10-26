@@ -509,7 +509,7 @@ export default function ProjectNationsGlory() {
 
         <Section className="!pt-8">
           <Eyebrow>L'algorithme</Eyebrow>
-          <H2>Un comment il marche?.</H2>
+          <H2>Et comment il marche?.</H2>
           <p className="mt-5 text-[#a1a1aa] leading-relaxed max-w-3xl">
             Aucun événement Minecraft ne dit « A a donné l'objet à B ». Le passage d'un joueur
             à l'autre n'est jamais écrit : c'est pour sa que je l'ai construit à partir de trois règles.
