@@ -260,7 +260,7 @@ export default function ProjectNationsGlory() {
               </p>
               <p className="mt-4 text-[15px] text-[#a1a1aa] leading-relaxed">
                 Cela ma donnée envie de rejoindre NG qui est un serveur sur lequel je joue depuis bientôt 7 ans afin d'aidée prioritairement le travail des staff en facilitant leurs travails.
-                Cela par l'ajout de plugin que j'ai déja travailler dessu ou futur projet que j'aimerai travailler par la suite comme un mode spectateur.
+                Cela par l'ajout de plugin que j'ai déja travailler dessu ou futur projet que j'aimerai travailler.
               </p>
             </Reveal>
 
