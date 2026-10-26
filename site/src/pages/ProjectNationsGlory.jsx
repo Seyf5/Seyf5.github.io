@@ -255,7 +255,7 @@ export default function ProjectNationsGlory() {
               </p>
               <p className="mt-4 text-[15px] text-[#a1a1aa] leading-relaxed">
                 Je me suis motivé est a commencé à développer ce plugin ainsi que d'autres idées qui m'ont été proposées.
-                En plus d'un moyen d'un meilleur moyen de suivi d'item un moyen de chercher un item précis dans un inventaire de joueur dans un rayon ou encore un gamemode spectator pas encore fini.
+                En plus d'un moyen d'un meilleur moyen de suivi d'item un moyen de chercher un item précis dans un inventaire de joueur dans un rayon.
                 Ou d'autre initiatives de mon coté tels que des commandes pour enchanté tout les item dans un rayon dans un iventaire + coffre ou des protection en cas de kick pays
               </p>
               <p className="mt-4 text-[15px] text-[#a1a1aa] leading-relaxed">
